@@ -1,0 +1,19 @@
+{
+  "name": "mini",
+  "version": "1.0.0",
+  "description": "WebApplication made by JInhyeon Park",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlsgussla123/WebApplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlsgussla123/WebApplication/issues"
+  },
+  "homepage": "https://github.com/wlsgussla123/WebApplication#readme"
+}
