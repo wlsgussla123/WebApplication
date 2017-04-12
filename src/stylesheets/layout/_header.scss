@@ -1,0 +1,77 @@
+/* header에 사용되는 layout */
+
+header {
+  border-bottom: $general-border-bottom;
+
+  #container {
+    flex-direction: row;
+    display: flex;
+    // margin:  auto;
+    padding-left: $header-container-padding-left;
+    padding-right: $header-container-padding-right;
+
+    #header_logo {
+      a {
+        display: flex;
+        padding-left: $header-logo-padding-left;
+
+        img {
+          align-self: center;
+        }
+      }
+    }
+
+    #member {
+      display: inline-flex;
+      flex-direction: row;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        padding: $member-a-padding;
+
+        color: $member-color;
+      }
+    }
+  }
+}
+
+.header-link {
+  height: $header-link-height;
+}
+
+/* header's */
+nav#topMenu {
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  ul {
+    flex-grow: 1;
+    /* 마찬가지로 이걸 통해서 nav의 영역을 통으로 먹자*/
+    display: inline-flex;
+    flex-direction: row;
+
+    text-align: left;
+    li {
+      display: inline-flex;
+      list-style: none;
+      a {
+        flex-grow: 1;
+        display: inline-flex;
+        /* text에 정렬을 주기위하여 */
+        align-items: center;
+        padding: $nav-a-padding;
+        color: $nav-color;
+      }
+    }
+  }
+}
+
+.header-link {
+  &:hover, &:focus {
+    color: $header-link-hover-color !important;
+    /* important를 먹이는 이유? : class이기 때문에 우선순위가 id에 밀려서 색상이 안 먹힘. */
+    background-color: $header-link-hover-bg;
+  }
+}

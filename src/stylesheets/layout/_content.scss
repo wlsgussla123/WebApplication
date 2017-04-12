@@ -1,0 +1,38 @@
+#main-content header {
+  height: $main-content-header-height;
+  background-color: $main-content-header-background-color;
+  background-image: url($main-content-header-background-img);
+  background-size: cover;
+  background-position: center top;
+}
+
+.main-header-container {
+  margin-left: $main-content-header-content-margin-left;
+  padding-top: $main-content-header-content-padding-top;
+  font-family: $general-font-family;
+
+  line-height: $general-line-height;
+}
+
+.main-header-container h1 {
+  display: inline;
+  line-height: $general-line-height
+}
+
+.main-header-container p {
+  margin-top: $main-content-header-content-p-margin-top;
+}
+
+#main-header-btns a {
+  margin-top: $main-content-header-btns-margin-top;
+}
+
+#main-header-btns a:nth-child(1) {
+  margin-right: $main-content-header-btns-left-margin-right;
+}
+
+/* set a color for more-service btn */
+
+#main-header-btns a:nth-child(2) {
+  background-color: $main-content-header-btns-right-background-color;
+}

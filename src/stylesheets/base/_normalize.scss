@@ -1,0 +1,35 @@
+
+html {
+  box-sizing: border-box;
+
+  font-size: $general-font-size;
+  font-family: $general-font-family;
+
+  background-color: $general-background-color;
+
+  body, ol, ul {
+    // remove basic margin. ex) ul has a newline.
+      margin: 0;
+      padding: 0;
+  }
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+p {
+  font-size: $p-font-size;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,130 +1,114 @@
 /* header */
 
-html {
+/*html {
   font-size: 10px;
 }
 
 body {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0;*/
   /* body가 갖고있는 margin 제거 */
-  font-size: 14px;
+  /*font-size: 14px;
   font-family: "Noto Sans CJK KR";
   background-color: white;
 }
 
 * {
   box-sizing: inherit;
-}
+}*/
 
-header {
-  border-bottom: 1px solid rgb(229, 235, 235);
-}
-
-a:hover, a:focus {
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 45px;
-}
-
-h2 {
-  font-size: 16px;
-}
-
-#container {
-  flex-direction: row;
-  display: flex;
-  margin: 0 auto;
-  /*margin : 17px 40px 10px 40px;*/
-  padding-left: 40px;
-  padding-right: 40px;
-  /*border: 1px solid red;*/
-}
-
-#header_logo a {
-  display: flex;
-  padding-left: 16px;
-}
-
-#header_logo a img {
-  align-self: center;
-  /*padding-top:17px;*/
-}
-
-#topMenu {
+/*#topMenu {
   display: inline-flex;
   flex-direction: column;
   flex-grow: 1;
-  /* 이걸로 nav의 영역을 만들어주자 */
-  /*border: 1px solid red;*/
 }
 
 #topMenu ul {
   flex-grow: 1;
-  /* 마찬가지로 이걸 통해서 nav의 영역을 통으로 먹자*/
   display: inline-flex;
   flex-direction: row;
-  /* ul에 기본적으로 먹히는 개행을 제거하자.*/
   padding: 0;
   margin: 0;
-  /*border: 1px solid green;*/
   text-align: left;
 }
 
 #topMenu ul li {
   display: inline-flex;
-  /*border: 1px solid blue;*/
   list-style: none;
 }
 
 #topMenu ul li a {
   flex-grow: 1;
   display: inline-flex;
-  /* text에 정렬을 주기위하여 */
   align-items: center;
   padding: 0px 12px 0px 12px;
-  /*border: 1px solid black;*/
   color: #abb1b1;
-  /*text-align: center;*/
-  /*line-height: 1.7;*/
+}*/
+
+/*header {
+  border-bottom: 1px solid rgb(229, 235, 235);
+}*/
+/*
+a:hover, a:focus {
+  text-decoration: none;
+}*/
+
+/*
+h1 {
+  font-size: 45px;
 }
 
-#member {
+h2 {
+  font-size: 16px;
+}*/
+
+/*#container {
+  flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}*/
+
+/*#header_logo a {
+  display: flex;
+  padding-left: 16px;
+}
+
+#header_logo a img {
+  align-self: center;
+  padding-top:17px;
+}*/
+
+/*#member {
   display: inline-flex;
   flex-direction: row;
-  /*border: 1px solid red;*/
 }
 
 #member a {
   display: inline-flex;
   align-items: center;
   padding: 0px 13px 0px 15px;
-  /*border: 1px solid blue;*/
   color: #17a1ff;
-}
+}*/
 
-.header-link {
+/*.header-link {
   height: 62px;
   text-decoration: none;
 }
 
 .header-link:hover, .header-link:focus {
   color: rgb(0, 73, 88) !important;
-  /* important를 먹이는 이유? : class이기 때문에 우선순위가 id에 밀려서 색상이 안 먹힘. */
   background-color: #f5faf9;
-}
+}*/
 
 
 /* main */
 
-#main-content header {
+/*#main-content header {
   width: 100%;
   height: 971px;
-  /* color가 앞에 와야한다. */
   background-color: #DBE1E0;
-  /* 경로 주의*/
   background-image: url('../img/home-cover.jpg');
   background-size: cover;
   background-position: center top;
@@ -132,7 +116,6 @@ h2 {
 
 .main-header-container {
   margin-left: 252px;
-  /* header와 글자의 간격 */
   padding-top: 64px;
   font-family: NotoSansKR;
   color: #003844;
@@ -146,8 +129,6 @@ h2 {
 }
 
 .main-header-container p {
-  /*width: 352px;
-  height: 16px;*/
   margin-top: 20px;
   font-size: 16px;
 }
@@ -158,8 +139,8 @@ h2 {
 
 #main-header-btns a:nth-child(1) {
   margin-right: 12px;
-}
-
+}*/
+/*
 .btn {
   padding: 6px 12px;
   border-radius: 5px;
@@ -167,15 +148,11 @@ h2 {
   font-size: 14px;
   text-align: center;
   background-color: #17a1ff;
-}
+}*/
 
 
-/* set a color for more-service btn */
 
-#more-service {
-  background-color: #004958;
-}
-
+/* transform css to scss by this line*/
 #main-header-left {
   display: inline-block;
   width: 170px;

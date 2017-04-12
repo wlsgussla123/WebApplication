@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/wlsgussla123/WebApplication#readme",
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "resolve-url-loader": "^2.0.2",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
   },

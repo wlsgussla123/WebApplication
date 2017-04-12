@@ -63,21 +63,63 @@
 /******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./css/style.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+module.exports = __webpack_require__.p + "img/home-benefit.png";
 
-const img1 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./img/home-interview.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-const img2 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./img/home-benefit.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-const img3 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./img/home-service.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-const img4 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./img/home-cover.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-const img5 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./img/home-macbook.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-const img6 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./img/logo-header.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/home-cover.jpg";
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/home-interview.png";
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/home-macbook.jpg";
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/home-service.png";
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/logo-header.svg";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(0);
+
+const img1 = __webpack_require__(3);
+const img2 = __webpack_require__(1);
+const img3 = __webpack_require__(5);
+const img4 = __webpack_require__(2);
+const img5 = __webpack_require__(4);
+const img6 = __webpack_require__(6);
 
 console.log(img1, img2, img3, img4, img5, img6);
 

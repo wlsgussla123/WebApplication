@@ -1,4 +1,4 @@
-require('./css/style.css');
+require('./stylesheets/main.scss');
 
 const img1 = require("./img/home-interview.png");
 const img2 = require("./img/home-benefit.png");
