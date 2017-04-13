@@ -32,8 +32,11 @@
 
 #main-header-btns a:nth-child(2) {
   background-color: $general-font-color;
-}
 
+  &:hover {
+    background: $black;
+  }
+}
 
 #latests-title {
     display: flex;
