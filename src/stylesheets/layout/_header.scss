@@ -1,6 +1,7 @@
 /* header에 사용되는 layout */
 
-header {
+header#header {
+  padding-left: $header-padding;
   border-bottom: $general-border-bottom;
 
   #container {
@@ -73,7 +74,6 @@ nav#topMenu {
     color: $header-link-hover-color !important;
     /* important를 먹이는 이유? : class이기 때문에 우선순위가 id에 밀려서 색상이 안 먹힘. */
     background-color: $header-link-hover-bg;
-
     text-decoration: none;
   }
 }

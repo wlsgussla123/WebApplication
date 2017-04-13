@@ -11,6 +11,7 @@ $h2-font-size: 16px;
 $p-font-size: 16px;
 
 /* header */
+$header-padding: 0 50px;
 $header-link-height: 62px;
 $header-link-hover-color: rgb(0, 73, 88);
 $header-link-hover-bg: #f5faf9;
@@ -33,6 +34,28 @@ $main-content-header-background-img: "../img/home-cover.jpg";
 $main-content-header-content-margin-left: 252px;
 $main-content-header-content-padding-top: 64px;
 $main-content-header-content-p-margin-top: 20px;
+
+/* main*/
 $main-content-header-btns-margin-top: 35px;
 $main-content-header-btns-left-margin-right: 12px;
 $main-content-header-btns-right-background-color: #004958;
+
+/* latest-title */
+$latest-title-line-width: 936px;
+$latest-title-line-margin-top: 79px;
+$latest-title-a-padding-top: 16px;
+$latest-title-h2-padding-top: 16px;
+$latest-title-h2-margin-top: -1px;
+$latest-title-h2-margin-right: 16px;
+
+/* footer */
+$footer-height: 60px;
+$footer-background-color: #ffffff;
+
+/* footer's a img */
+$footer-a-margin-right: 50px;
+$footer-a-img-width: 110px;
+$footer-a-img-height: 20px;
+
+/* footer's li */
+$footer-ul-li-margin-right: 27px;
