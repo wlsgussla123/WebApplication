@@ -36,3 +36,50 @@
 #main-header-btns a:nth-child(2) {
   background-color: $main-content-header-btns-right-background-color;
 }
+
+#latests-title {
+  display: flex;
+  flex-direction: row;
+  width: 936px;
+  margin-top: 79px;
+  border-top: 1px solid rgba(0, 40, 61, 0.4);
+}
+
+#latests-title h2 {
+  padding-top: 16px;
+  margin-top: -1px;
+  margin-right: 16px;
+  border-top: 1px solid black;
+}
+
+#latests-title a {
+  padding-top: 16px;
+}
+
+footer {
+  height: 60px;
+  background-color: #ffffff;
+
+  text-align: center;
+}
+
+footer ul {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+footer a {
+  margin-right: 50px;
+}
+
+footer a img {
+  width: 110px;
+  height: 20px;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 27px;
+
+  color: $header-link-hover-color;
+}

@@ -4,6 +4,7 @@ html {
 
   font-size: $general-font-size;
   font-family: $general-font-family;
+  color: $general-font-color;
 
   background-color: $general-background-color;
 
@@ -20,14 +21,17 @@ html {
 
 h1 {
   font-size: $h1-font-size;
+  color: $general-font-color;
 }
 
 h2 {
   font-size: $h2-font-size;
+  color: $general-font-color;
 }
 
 p {
   font-size: $p-font-size;
+  color: $general-font-color;
 }
 
 a {
