@@ -1,20 +1,20 @@
 /* header에 사용되는 layout */
 
 header#header {
-  padding-left: $header-padding;
+  padding-left: 50px;
+  padding-right: 50px;
   border-bottom: $general-border-bottom;
 
   #container {
     flex-direction: row;
     display: flex;
-    // margin:  auto;
-    padding-left: $header-container-padding-left;
-    padding-right: $header-container-padding-right;
+    padding-left: 40px;
+    padding-right: 40px;
 
     #header_logo {
       a {
         display: flex;
-        padding-left: $header-logo-padding-left;
+        padding-left: 16px;
 
         img {
           align-self: center;
@@ -29,16 +29,14 @@ header#header {
       a {
         display: inline-flex;
         align-items: center;
-        padding: $member-a-padding;
+        padding-right: 13px;
+        padding-left: 15px;
 
-        color: $member-color;
+        color: #17a1ff;
+
       }
     }
   }
-}
-
-.header-link {
-  height: $header-link-height;
 }
 
 /* header's */
@@ -62,18 +60,22 @@ nav#topMenu {
         display: inline-flex;
         /* text에 정렬을 주기위하여 */
         align-items: center;
-        padding: $nav-a-padding;
-        color: $nav-color;
+        padding-right: 12px;
+        padding-left: 12px;
+        color: #abb1b1;
       }
     }
   }
 }
 
 .header-link {
+  height: 62px;
+}
+.header-link {
   &:hover, &:focus {
-    color: $header-link-hover-color !important;
+    color: $general-font-color !important;
     /* important를 먹이는 이유? : class이기 때문에 우선순위가 id에 밀려서 색상이 안 먹힘. */
-    background-color: $header-link-hover-bg;
+    background-color: $general-background-color;
     text-decoration: none;
   }
 }

@@ -50,6 +50,9 @@ module.exports = {
   },
 
   plugins: [
-    new ExtractTextPlugin("style.css")
+    new ExtractTextPlugin({
+      disable: (process.env.NODE_ENV !== 'production'),
+      filename: "style.css"
+    })
   ]
 };

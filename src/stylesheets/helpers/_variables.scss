@@ -1,61 +1,44 @@
+/* color */
+$cool-gray-50: #f8fbfb;
+$cool-gray-200: #e5ebeb;
+$cool-gray-300: #d2d7d7;
+$cool-gray-400: #c0c6c6;
+$cool-gray-500: #abb1b1;
+$navy: #00283d;
+$blue-green: #1b7c92;
+$azure: #17a1ff;
+$sky-blue: #54b6ff;
+$jungle-green: #017d4b;
+$emerald: #009a5d;
+$seaweed: #1bc481;
+$deep-teal: #004958;
+$bluish: #1f91aa;
+$tealish-green: #0dd284;
+$cerulean: #0783d7;
+$petrol: #005f74;
+$dark-teal: #003843;
+$light-khaki: #f4d5ba;
+$beige: #e6c2a2;
+$pale: #ffebd9;
+$sunflower-yellow: #fad300;
+$orangey-red: #ff3737;
+$white: #ffffff;
+
+// bootstrap variables
+$brand-primary: $azure;
+$brand-success: $emerald;
+$brand-info: $sky-blue;
+$brand-warning: $sunflower-yellow;
+$brand-danger: $orangey-red;
+
 /* general */
-$general-background-color: white;
-$general-border-bottom: 1px solid rgb(229, 235, 235);
+$general-border-bottom: 1px solid $cool-gray-300;
 $general-font-family: "Noto Sans CJK KR";
 $general-font-size: 14px;
 $general-line-height: 1.4;
-$general-font-color: rgb(0, 73, 88);
+$general-font-color: $deep-teal;
+$general-background-color: $cool-gray-50;
 
 $h1-font-size: 45px;
 $h2-font-size: 16px;
 $p-font-size: 16px;
-
-/* header */
-$header-padding: 0 50px;
-$header-link-height: 62px;
-$header-link-hover-color: rgb(0, 73, 88);
-$header-link-hover-bg: #f5faf9;
-$header-container-padding-left: 40px;
-$header-container-padding-right: 40px;
-$header-logo-padding-left: 16px;
-
-/* header-nav */
-$nav-color: #abb1b1;
-$nav-a-padding: 0px 12px;
-
-/* header-member */
-$member-color: #17a1ff;
-$member-a-padding: 0px 13px 0px 15px;
-
-/* main-content-header*/
-$main-content-header-height: 971px;
-$main-content-header-background-color: #DBE1E0;
-$main-content-header-background-img: "../img/home-cover.jpg";
-$main-content-header-content-margin-left: 252px;
-$main-content-header-content-padding-top: 64px;
-$main-content-header-content-p-margin-top: 20px;
-
-/* main*/
-$main-content-header-btns-margin-top: 35px;
-$main-content-header-btns-left-margin-right: 12px;
-$main-content-header-btns-right-background-color: #004958;
-
-/* latest-title */
-$latest-title-line-width: 936px;
-$latest-title-line-margin-top: 79px;
-$latest-title-a-padding-top: 16px;
-$latest-title-h2-padding-top: 16px;
-$latest-title-h2-margin-top: -1px;
-$latest-title-h2-margin-right: 16px;
-
-/* footer */
-$footer-height: 60px;
-$footer-background-color: #ffffff;
-
-/* footer's a img */
-$footer-a-margin-right: 50px;
-$footer-a-img-width: 110px;
-$footer-a-img-height: 20px;
-
-/* footer's li */
-$footer-ul-li-margin-right: 27px;
